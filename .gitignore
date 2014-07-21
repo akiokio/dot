@@ -55,3 +55,6 @@ docs/_build/
 # Vagrant 
 .vagrant/
 
+# Sql Lite database
+*.sqlite3
+
