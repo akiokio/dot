@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/akiokio/Projects/dot"},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef-3/chef-solo-1/cookbooks","hostpath":"/Users/akiokio/Projects/dot/cookbooks"},"v-csr-2":{"id":"v-csr-2","guestpath":"/tmp/vagrant-chef-3/chef-solo-2/roles","hostpath":"/Users/akiokio/Projects/dot/roles"}}}
