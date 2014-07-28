@@ -58,3 +58,6 @@ docs/_build/
 # Sql Lite database
 *.sqlite3
 
+# Sublime
+*.sublime-project
+*.sublime-workspace

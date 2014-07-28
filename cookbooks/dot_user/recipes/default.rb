@@ -150,6 +150,12 @@ python_virtualenv "/opt/dot/venvs/dot" do
     end
 end
 
+execute "install packages" do
+    command "pip install -r /vagrant/src/dot_app/requirements.txt"
+end
+
 execute "initialize database" do
-    command "dbreset"
+    command "createdb -U postgres dot_database"
+    command "python /vagrant/src/dot_app/manage.py syncdb --noinput --settings=dot_app.settings"
+    command "python /vagrant/src/dot_app/manage.py migrate --settings=dot_app.settings"
 end
